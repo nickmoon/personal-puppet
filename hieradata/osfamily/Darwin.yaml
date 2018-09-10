@@ -1,0 +1,7 @@
+---
+classes:
+  - mac_admin::munki
+  - mac_admin::munki::munkitools
+ 
+mac_admin::munki::repourl: https://munki.example.com
+mac_admin::munki::install_apple_updates: true
