@@ -1,6 +1,8 @@
 ---
 classes:
  - 'profile::base'
+ - puppet_run
+"puppet_run::server_name": puppet.example.com
 
 ntp::servers:
   - 0.us.pool.ntp.org
