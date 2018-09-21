@@ -1,5 +1,7 @@
 lookup('classes', {merge => unique}).include
 
+
+
 node default {
     file { '/etc/motd':
         owner => 'root',
@@ -7,4 +9,6 @@ node default {
         mode => '0644' ,
         content => "\nAll Hail the Knife Crab\n"
     }
+    
+    class {'::ntp':}
 }
