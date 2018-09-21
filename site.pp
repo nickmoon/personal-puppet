@@ -1,3 +1,4 @@
+lookup('classes', {merge => unique}).include
 
 node default {
     file { '/etc/motd':
