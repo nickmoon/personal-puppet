@@ -5,6 +5,4 @@ node default {
         mode => '0644' ,
         content => "\nAll Hail the Knife Crab\n"
     }
-    
-    class {'::ntp':}
 }
