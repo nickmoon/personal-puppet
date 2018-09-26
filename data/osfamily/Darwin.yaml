@@ -1,7 +1,7 @@
 ---
-classes:
-  - mac_admin::munki
-  - mac_admin::munki::munkitools
- 
-mac_admin::munki::repourl: https://munki.nickmoon.rocks
-mac_admin::munki::install_apple_updates: true
+sal_client::server: http://sal.nickmoon.rocks
+sal_client::key: rbm026y6rktsjoecsyt4gyqvhafv6exnwzvjmrwabqh53qa0b8taw3792or06jcwwnzxsx0t6fgct1k9gp78gjam97qspr72jpvye0d0nzq8zi9w2uj2uk0y5ra3qwyn
+sal_client::macos_version: '2.1.3'
+sal_client::sync_scripts: true
+sal_client::basic_auth: true
+sal_client::payload_organization: 'Sal Opensource'
