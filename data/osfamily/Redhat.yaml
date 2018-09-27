@@ -1,1 +1,4 @@
-ntp::servers: '0.centos.pool.ntp.org'
+---
+classes:
+  - ntp
+  ntp::servers: 0.centos.pool.ntp.org 
