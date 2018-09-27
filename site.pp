@@ -5,5 +5,5 @@ node default {
         mode => '0644' ,
         content => "\nAll Hail the Knife Crab\n"
     }
-    lookup('ntp:', {merge => unique}).include
+    lookup('classes', {merge => unique}).include
 }
