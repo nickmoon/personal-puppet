@@ -1,5 +1,7 @@
 node default {
-    hiera_include('classes')
+
+    lookup('classes', {merge => unique}).include
+    
     file { '/etc/motd':
         owner => 'root',
         group => 'root',
