@@ -1,5 +1,7 @@
 node default {
 
+    include mac_stdlib
+
     lookup('classes', {merge => unique}).include
     
     file { '/etc/motd':
