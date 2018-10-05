@@ -1,4 +1,7 @@
 ---
-ntp::servers: '0.us.pool.ntp.org' 
+classes:
+  - ntp
+  - sal_client
+   
 
 
