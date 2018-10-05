@@ -1,6 +1,4 @@
 ---
-classes:
-  - ntp
-  ntp::servers: '0.us.pool.ntp.org' 
+ntp::servers: '0.us.pool.ntp.org' 
 
 
