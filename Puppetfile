@@ -2,7 +2,10 @@ forge 'forge.puppetlabs.com'
 
 # Forge Modules
 mod 'puppetlabs-ntp', '7.2.0'
-mod 'puppetlabs-stdlib', '5.0.0'
+
+#git hub modules
+mod 'puppetlabs-stdlib',
+    :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
 
 #gith hub modules for macs
 mod 'mac_stdlib',
